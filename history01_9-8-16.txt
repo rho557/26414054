@@ -1,0 +1,24 @@
+  240  mkdir newdirtest
+  241  cd newdirtest
+  242  vi newdirfile.txt
+  243  cat newdirfile.txt
+  244  cd ..
+  245  git remote -v
+  246  git add newdirtest/newdirfile.txt
+  247  git commit -m "First commit new directory test"
+  248  git push origin master
+  249  cd newdirtest
+  250  vi test_no_2.txt
+  251  cat test_no_2.txt
+  252  cd ..
+  253  cd newdirtest
+  254  git add test_no_2.txt
+  255  git commit -m "First commit no 2 of 9/8/2016"
+  256  git push origin master
+  257  vi thirdtry.md
+  258  git add thirdtry.md
+  259  git commit -m "First commit #3 of 9/8/2016"
+  260  git push origin master
+  261  git push origin master
+  263  logout
+

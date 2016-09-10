@@ -1,0 +1,18 @@
+  298 cd 26414054
+  299 ls -al
+  300  mkdir dir10-9-16
+  301  ls
+  302  cd dir10-9-16
+  303  vi firstone.txt
+  304  vi numbertwo.txt
+  305  vi number3.txt
+  306  cd ..
+  307  git add dir10-9-16/firstone.txt
+  308  git add dir10-9-16/numbertwo.txt
+  309  git add dir10-9-16/number3.txt
+  310  git commit -m "First commit 9/10/16"
+  311  git push origin master
+  312  git pull origin master
+  313  git push origin master
+  314  logout
+  315  history

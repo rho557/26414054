@@ -1,0 +1,12 @@
+  286 mkdir dirtest2
+  287  cd dirtest2
+  288  vi testno1.txt
+  289  vi test_2.txt
+  290  vi test_3.txt
+  291  cd ..
+  292  git add dirtest2/testno1.txt
+  293  git add dirtest2/test_2.txt
+  294  git add dirtest2/test_3.txt
+  295  git commit -m "9/9/2016 commit"
+  296  git push origin master
+  297  logout
