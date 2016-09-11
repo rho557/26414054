@@ -1,0 +1,15 @@
+  343 cd 26414054
+  344 ls -al
+  345  mkdir dir11-9-16
+  346  cd dir11-9-16
+  347  vi zero-one.txt
+  348  vi zero-two.txt
+  349  vi zero-three.jpg
+  350  cat zero-three.jpg
+  351  cd ..
+  352  git add dir11-9-16/zero-one.txt
+  353  git add dir11-9-16/zero-two.txt
+  354  git add dir11-9-16/zero-three.jpg
+  355  git commit -m "9/11/16 commit (3 files)"
+  356  git push origin master
+  357  history
