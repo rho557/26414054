@@ -1,0 +1,14 @@
+  367  cd 26414054
+  368  ls -al
+  369  mkdir dir12-9-16
+  370  cd dir12-9-16
+  371  vi zeroone.txt
+  372  vi zerotwo.txt
+  373  vi zerothree.txt
+  374  cd ..
+  375  git add dir12-9-16/zeroone.txt
+  376  git add dir12-9-16/zerotwo.txt
+  377  git add dir12-9-16/zerothree.txt
+  378  git commit -m "9/12/16 daily exercise commit"
+  379  git push origin master
+  380  history
