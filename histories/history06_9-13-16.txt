@@ -1,0 +1,15 @@
+  397  cd 26414054
+  398  ls -al
+  399  mkdir dir13-9-16
+  400  cd dir13-9-16
+  401  vi zeroone.txt
+  402  vi zerotwo.txt
+  403  vi zerothree.png
+  404  cd ..
+  405  git add dir13-9-16/zeroone.txt
+  406  git add dir13-9-16/zerotwo.txt
+  407  git add dir13-9-16/zerothree.txt
+  408  git add dir13-9-16/zerothree.png
+  409  git commit -m "9/13/16 daily exercise commit"
+  410  git push origin master
+  411  history
