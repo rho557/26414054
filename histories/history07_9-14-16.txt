@@ -1,0 +1,14 @@
+  420  cd 26414054
+  421  ls -al
+  422  mkdir dir14-9-16
+  423  cd dir14-9-16
+  424  vi zeroone.txt
+  425  vi zerotwo.txt
+  426  vi zerothree.txt
+  427  cd ..
+  428  git add dir14-9-16/zeroone.txt
+  429  git add dir14-9-16/zerotwo.txt
+  430  git add dir14-9-16/zerothree.txt
+  431  git commit -m "9/14/16 daily exercise commit w/ Git Bash"
+  432  git push origin master
+  433  history
