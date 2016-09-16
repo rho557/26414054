@@ -1,0 +1,14 @@
+  462  cd 26414054
+  463  ls -al
+  464  mkdir dir16-9-16
+  465  cd dir16-9-16
+  466  vi zeroone.txt
+  467  vi zerotwo.txt
+  468  vi zerothree.txt
+  469  cd ..
+  470  git add dir16-9-16/zeroone.txt
+  471  git add dir16-9-16/zerotwo.txt
+  472  git add dir16-9-16/zerothree.txt
+  473  git commit -m "9/16/16 commit"
+  474  git push origin master
+  475  history
