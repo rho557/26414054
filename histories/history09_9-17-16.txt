@@ -1,0 +1,7 @@
+  496  cd 26414054
+  497  ls -al
+  498  vi day17-9-16.txt
+  499  git add day17-9-16.txt
+  500  git commit -m "9/17/16 commit"
+  501  git push origin master
+  502  history
