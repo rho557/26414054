@@ -1,0 +1,7 @@
+  20  ls -al
+  21  cd 26414054
+  22  ls -al
+  23  vi day19-9-16.txt
+  24  git add day19-9-16.txt
+  25  git commit -m "9-19-16 commit via brand new OS"
+  26  git push
