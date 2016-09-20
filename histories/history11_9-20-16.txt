@@ -1,0 +1,6 @@
+  45  cd 26414054
+  46  ls -al
+  47  vi day20-9-16.txt
+  48  git add day20-9-16.txt
+  49  git commit -m "9/20/16 random content commit"
+  50  git push
