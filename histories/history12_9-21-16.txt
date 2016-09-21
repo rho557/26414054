@@ -1,0 +1,10 @@
+  71  cd 26414054
+  72  git pull
+  73  logout
+  74  cd 26414054
+  75  ls -al
+  76  vi day21-9-16.txt
+  77  git add day21-9-16.txt
+  78  git commit -m "9/21/16 commit"
+  79  git push
+  80  history		      
