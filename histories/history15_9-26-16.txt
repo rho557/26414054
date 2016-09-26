@@ -1,0 +1,7 @@
+  123  cd 26414054
+  124  ls -al
+  125  vi day26-9-16.txt
+  126  git add day26-9-16.txt
+  127  git commit -m "9/26/16 commit"
+  128  git push
+  129  history	      
