@@ -1,0 +1,9 @@
+  175  cd 26414054
+  176  ls -al
+  177  vi day01-10-16.txt
+  178  git add day01-10-16.txt
+  179  git commit -m "10/01/16 commit"
+  180  git push
+  181  cd histories
+  182  ls -al
+  183  history
