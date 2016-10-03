@@ -1,0 +1,7 @@
+  198  cd 26414054
+  199  ls -al
+  200  vi day03-10-16.txt
+  201  git add day03-10-16.txt
+  202  git commit -m "10/03/16 commit"
+  203  git push
+  204  history
