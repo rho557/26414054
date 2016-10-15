@@ -1,0 +1,8 @@
+  250  cd 26414054
+  251  ls -al
+  252  vi day15-10-16.txt
+  253  git add day15-10-16.txt
+  254  git commit -m "10/15/16 commit"
+  255  git push
+  256  cd histories
+  257  history		
