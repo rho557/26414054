@@ -1,0 +1,27 @@
+#No 1
+#!/bin/awk -f
+BEGIN{
+        wget "http://api.worldbank.org/v2/SI.POV.GINI?downloadformat=csv";
+        unzip "API_SI.POV.GINI_DS2_en_csv_v2.zip";
+        print "Negara Hitung Jumlah Rata-rata Maksimum Minimum\n";
+	FS = ",";
+}
+{
+        avg = 0;
+        max = 0;
+        min = 0;
+        while((getline line<"API_SI.POV.GINI_DS2_en_csv_v2.csv") > 0 ) {
+                print "$2 "avg" "max" "min"\n";
+        }
+}
+END{ }
+
+#No 2
+#!/bin/awk -f
+BEGIN{ }
+{
+        for(i=1;i<=31;i++) {
+                curl --data "selprop=35&selrepo=lhk03prov&seltgl=i&selbul=10&seltah=16" --no-check-certificate -O https://aplikasi.pertanian.go.id/smshargakab/qrylapharprov.asp;
+        }
+}
+END{ }
