@@ -49,7 +49,6 @@ label start:
     "Guess I'll try to punch a tree later at the park after school."
     "Possibly as many as possible."
     "Well, it sounds kinda random, but it certainly worth a try."
-    
     "Then I suddenly see a group of suspicious looking people appeared out of nowhere in the distance."
 
     ## This ends the game.
